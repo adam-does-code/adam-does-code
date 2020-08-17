@@ -1,0 +1,62 @@
+p,
+li {
+    font-size: 13pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 6px double #ffffff;
+    padding: 10px;
+}
+
+ol {
+    margin-left: 1em;
+}
+
+body {
+    color: black;
+    background: #ffd1dc;
+    margin: 1em;
+    font-weight: bold;
+}
+
+p {
+    max-width: 80ch;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+h1 {
+    font-size: 18pt;
+}
+
+a,
+.advisory {
+    background: #ffffff;
+    font-weight: 700;
+}
+
+.active {
+    background-color: rgb(143, 205, 244);
+    color: black;
+}
+
+.one {
+    width: 40%;
+    float: left;
+}
+
+.two {
+    margin-left: 100px;
+    height: 350px;
+    width: 350px;
+}
