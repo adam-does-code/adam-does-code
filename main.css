@@ -9,7 +9,7 @@ table {
 }
 
 td {
-    border: 6px double #ffffff;
+    border: 6px double #90b9ff;
     padding: 10px;
 }
 
@@ -19,7 +19,7 @@ ol {
 
 body {
     color: black;
-    background: #ffd1dc;
+    background: #6abaff;
     margin: 1em;
     font-weight: bold;
 }
