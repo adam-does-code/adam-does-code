@@ -1,7 +1,18 @@
 p,
 li {
     font-size: 13pt;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Consolas, monospace;
+}
+
+.page-wrapper {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+}
+
+.intro {
+    margin-top: 40px;
 }
 
 table {
@@ -59,4 +70,8 @@ a,
     margin-left: 100px;
     height: 350px;
     width: 350px;
+}
+
+.btn {
+    font-size: 0.60em;
 }
