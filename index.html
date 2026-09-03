@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<script>
+    fetch('nav.html')
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('nav-placeholder').innerHTML = html;
+        });
+</script>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,14 +22,7 @@
 
 <body>
     <div class="nes-container is-rounded page-wrapper">
-        <nav class="nav">
-            <a class="nes-btn btn" href="index.html">home</a>
-            <!-- <a class="nes-btn" href="https://photos.craftedbyadam.dev">photography</a> -->
-            <a class="nes-btn btn is-primary" href="https://blog.craftedbyadam.dev">blog</a>
-            <a class="nes-btn btn" href="about.html">about</a>
-            <a class="nes-btn btn" href="/resume.pdf">resume</a>
-        </nav>
-
+        <div id="nav-placeholder"></div>
         <div class="intro">
             <p>Hi i'm Adam!</p>
             <p>I'm a senior full-stack engineer! Currently based in Toronto, however I am open to relocating to Portugal (and a few other places). Most recently i was working at Pagerduty developing the Agentic products and building supporting UIs for their
