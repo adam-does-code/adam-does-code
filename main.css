@@ -53,9 +53,21 @@ a {
     font-size: 0.60em;
 }
 
+.speech {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Shift the balloon 10px left of nes.css's default 8px margin */
+.speech .nes-balloon {
+    margin-right: 18px;
+}
+
+/* Centered under the balloon's tail (nes.css puts it 2rem from the right) */
 .kirby {
-    float: right;
-    margin-right: -30px;
+    margin-top: 4px;
+    margin-right: 8px;
 }
 
 /* Tablets: give the card more room */
@@ -84,9 +96,5 @@ a {
 
     h1 {
         font-size: 14pt;
-    }
-
-    .kirby {
-        margin-right: 0;
     }
 }
